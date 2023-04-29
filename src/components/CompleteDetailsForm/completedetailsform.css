@@ -1,0 +1,176 @@
+
+.resume {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.resume h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.resume h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.resume p {
+  margin: 0;
+}
+
+.resume .contact-info {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.resume .contact-info .contact-item {
+  margin-right: 2rem;
+}
+
+.resume .about-section {
+  margin-bottom: 2rem;
+}
+
+.resume .experience-section {
+  margin-bottom: 2rem;
+}
+
+.resume .experience-section .experience-item {
+  margin-bottom: 1rem;
+}
+
+.resume .education-section {
+  margin-bottom: 2rem;
+}
+
+.resume .education-section .education-item {
+  margin-bottom: 1rem;
+}
+
+input{
+  
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+.nametitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emailinput input{
+  width: 80%;
+  margin-left: 60px;
+}
+
+.phonewebsite{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.abouttextarea{
+  width: 100%;
+  height: 20vh;
+  padding: 10px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin-left: 60px;
+}
+.expericeeducation{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.expericeeducation input{
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expericeeducation button{
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  
+}
+
+.generateresume{
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+
+@media all and (max-width:390px){
+  .addskills{
+    margin-left: 60px;
+  }
+  .generateresume{
+    margin-left: 100px;
+  }
+}
+
+
+@media all and (min-width:768px){
+  .addskills{
+    margin-left: 250px;
+  }
+  .generateresume{
+    margin-left: 300px;
+  }
+}
+
+
+@media all and (min-width:1440px){
+  .addskills{
+    margin-left: 500px;
+  }
+  .generateresume{
+    margin-left: 550px;
+  }
+}
+
+
+
+@media all and (min-width:1440px){
+  .expericeeducation{
+    margin-right: 200px;
+  }
+  
+}
+
+@media all and (min-width:1500px){
+  .addskills{
+    margin-left: 550px;
+  }
+  .generateresume{
+    margin-left: 590px;
+  }
+  
+}
